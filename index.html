@@ -8,16 +8,17 @@
     <title>Comment-section</title>
   </head>
   <body>
-    <div class="form">
-        <p>Add Comment:</p><br/>
-        <p>Name: <input type="text" id="name" /></p><br/>
-        <p>Date: <input type="date" id="date" /></p><br/>
-        <p>Body: <textarea row="5" col="30" id="bodyText"></textarea></p><br/>
-        <button id="addComment" >Add Comment</button>
-    </div>
-        <div id="container">
+    <section class="form">
+      <img src="sakura.jpg" alt="user" />
+      <textarea row="5" col="10" id="bodyText" placeholder="Add Comment..."></textarea>
+      <div>
+      <button id="addComment">Comment</button>
+      <button id="addCancel">Cancel</button>
+    </div> 
+    </section>
+    <section id="body">
 
-        </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
