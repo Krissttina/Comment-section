@@ -1,5 +1,7 @@
 ### Comment-section
 
+You can try live demo by clicking on 'github-pages' in Environments ->
+
 Any type of text can be attached to the comment section body.
 
 ![preview](img/preview.png)
